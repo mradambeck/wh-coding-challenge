@@ -11,18 +11,23 @@
   font-weight: normal;
   font-style: normal; }
 body {
-  padding-top: 30px;
+  padding-top: 32px;
   background-color: #fff;
   font-family: "proxima_nova_light"; }
 
-button {
+a {
   border-radius: 2px !important;
   border: 0 !important;
-  font-size: 16px !important;
-  padding: 20px 40px 20px 40px !important; }
+  font-size: 17px !important;
+  padding: 20px 40px 20px 25px !important;
+  letter-spacing: .06em; }
+
+.btn-logo {
+  height: 20px;
+  padding-right: 24px; }
 
 .btn-warning {
-  background-color: #f29d1e !important; }
+  background-color: #ffa803 !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "proxima_nova_semibold";
@@ -47,7 +52,7 @@ s {
   background-color: #e7e8e9;
   padding: 15px 80px 35px 35px;
   color: #727375; }
-  #monthly-svc-box button {
+  #monthly-svc-box a {
     margin-top: 47px; }
   #monthly-svc-box .fees {
     padding-top: 4px !important; }
@@ -56,10 +61,22 @@ s {
   border: 6px solid #b3b4b6;
   border-radius: 10px;
   padding: 11px 0 36px 22px; }
-  #savings-col button {
+  #savings-col a {
     margin-top: 27px; }
+  #savings-col .fees {
+    margin-top: 20px; }
 
 .fine-print {
   font-size: 20px; }
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 10px; }
+
+  #monthly-svc-col {
+    margin: 0 15px 30px 15px; }
+
+  #savings-col {
+    margin: 0 8px 15px 8px; } }
 
 /*# sourceMappingURL=mock2html.css.map */
