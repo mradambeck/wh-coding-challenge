@@ -25,7 +25,12 @@ button {
   background-color: #f29d1e !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "proxima_nova_semibold"; }
+  font-family: "proxima_nova_semibold";
+  letter-spacing: .04em;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 40px; }
 
 p {
   font-size: 30px; }
@@ -34,7 +39,9 @@ s {
   color: #e7e8e9; }
 
 .title {
-  font-size: 20px !important; }
+  font-size: 20px !important;
+  padding-bottom: 8px;
+  margin-top: 24px; }
 
 #monthly-svc-box {
   background-color: #e7e8e9;
@@ -42,9 +49,17 @@ s {
   color: #727375; }
   #monthly-svc-box button {
     margin-top: 47px; }
+  #monthly-svc-box .fees {
+    padding-top: 4px !important; }
 
 #savings-col {
   border: 6px solid #b3b4b6;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding: 11px 0 36px 22px; }
+  #savings-col button {
+    margin-top: 27px; }
+
+.fine-print {
+  font-size: 20px; }
 
 /*# sourceMappingURL=mock2html.css.map */

@@ -49,6 +49,12 @@ button {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "proxima_nova_semibold";
+  letter-spacing: .04em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 p {
@@ -62,6 +68,8 @@ s {
 // Left Column (#monthly-svc-col)
 .title {
   font-size: 20px!important;
+  padding-bottom: 8px;
+  margin-top: 24px;
 }
 
 #monthly-svc-box {
@@ -71,6 +79,9 @@ s {
   button {
     margin-top: 47px;
   }
+  .fees {
+    padding-top:4px!important;
+  }
 }
 
 // Right Column (#savings-col)
@@ -78,4 +89,12 @@ s {
 #savings-col {
   border: 6px solid $midgrey;
   border-radius: 10px;
+  padding: 11px 0 36px 22px;
+  button {
+    margin-top: 27px;
+  }
+}
+
+.fine-print {
+  font-size: 20px;
 }
