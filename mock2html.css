@@ -11,4 +11,40 @@
   font-weight: normal;
   font-style: normal; }
 body {
+  padding-top: 30px;
+  background-color: #fff;
   font-family: "proxima_nova_light"; }
+
+button {
+  border-radius: 2px !important;
+  border: 0 !important;
+  font-size: 16px !important;
+  padding: 20px 40px 20px 40px !important; }
+
+.btn-warning {
+  background-color: #f29d1e !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "proxima_nova_semibold"; }
+
+p {
+  font-size: 30px; }
+
+s {
+  color: #e7e8e9; }
+
+.title {
+  font-size: 20px !important; }
+
+#monthly-svc-box {
+  background-color: #e7e8e9;
+  padding: 15px 80px 35px 35px;
+  color: #727375; }
+  #monthly-svc-box button {
+    margin-top: 47px; }
+
+#savings-col {
+  border: 6px solid #b3b4b6;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=mock2html.css.map */
