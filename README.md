@@ -1,3 +1,3 @@
-# Whistle Coding Challenge
+# Coding Challenge
 
-Coding challenge for Whistle
+Coding challenge for a job application - to recreate a mock.
